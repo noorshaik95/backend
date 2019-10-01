@@ -1,0 +1,20 @@
+{
+  "port": 2100,
+  "security": {
+    "tokenLife": 7200,
+    "username": "noor",
+    "password": "1234",
+    "secret": "asdas"
+  },
+  "mongoose": {
+    "uri": "localhost:27017",
+    "options": {
+      "server": {
+        "auto_reconnect": true,
+        "socketOptions": {
+          "keepAlive": 120
+        }
+      }
+    }
+  }
+}
